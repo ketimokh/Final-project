@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Archy EDT';
+  src: url("../basic/fonts.scss/ArchyEDT-Bold.eot");
+  src: url("../basic/fonts.scss/ArchyEDT-Bold.eot?#iefix") format("embedded-opentype"), url("../basic/fonts.scss/ArchyEDT-Bold.woff2") format("woff2"), url("../basic/fonts.scss/ArchyEDT-Bold.woff") format("woff"), url("../basic/fonts.scss/ArchyEDT-Bold.ttf") format("truetype"), url("../basic/fonts.scss/ArchyEDT-Bold.svg#ArchyEDT-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
 .header {
   font-size: 18px;
   position: fixed;
@@ -6,6 +14,8 @@
   bottom: 0;
   top: 0;
   z-index: 10; }
+  .header .card {
+    background-color: #ffffff; }
   .header nav {
     background-color: #ffffff; }
     .header nav a {
@@ -37,31 +47,33 @@
     margin-bottom: 20px;
     font-size: 20px;
     color: #c8a31c;
-    padding: 0 0 10px 10px;
+    padding: 0 100px 10px 10px;
     border: 10px solid #c8a31c;
-    z-index: 2; }
+    z-index: 2;
+    margin-right: 100px; }
     .relativi .title-conent h2 {
       font-size: 30px;
       color: #c8a31c; }
   .relativi .slide {
     width: 900px;
-    margin-left: 100px; }
+    margin-right: 800px; }
 
 .absolut {
-  margin-left: 700px;
-  padding-top: 30px;
+  margin-left: 300px;
+  padding-top: 20px;
   position: relative;
   margin-top: 100px; }
   .absolut .title-conent1 {
     position: absolute;
-    width: 600px;
+    width: 400px;
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 20px;
     color: #c8a31c;
     padding: 0 0 10px 10px;
     border: 10px solid #c8a31c;
-    z-index: 2; }
+    z-index: 2;
+    margin-left: 500px; }
     .absolut .title-conent1 h2 {
       font-size: 30px;
       color: #c8a31c; }

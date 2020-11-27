@@ -1,3 +1,10 @@
+@import './basic/fonts.scss';
+@import './moduls/variable.scss';
+@import './moduls/classes.scss';
+@import './main/media.scss';
+
+
+
 .header{
     font-size: 18px;  
     position: fixed;
@@ -6,6 +13,9 @@
     bottom: 0;
     top: 0;
     z-index: 10;
+    .card{
+        background-color: #ffffff;
+    }
     nav{
         background-color: #ffffff;
         a{
@@ -50,9 +60,10 @@
         margin-bottom: 20px;
         font-size: 20px;
         color:  #c8a31c;
-        padding: 0 0 10px 10px;
+        padding: 0 100px 10px 10px;
         border: 10px solid #c8a31c;
         z-index: 2;
+        margin-right:100px;
          h2{
             font-size: 30px;
             color:  #c8a31c;
@@ -60,18 +71,18 @@
     }
     .slide{
         width:900px;
-        margin-left:100px ;
+        margin-right: 800px;
     }
     
 }
 .absolut{
-    margin-left:700px;
-    padding-top:30px;
+    margin-left:300px;
+    padding-top:20px;
     position: relative;
     margin-top: 100px;
     .title-conent1{
         position: absolute;
-        width: 600px;
+        width: 400px;
         margin-top:30px;
         margin-bottom: 20px;
         font-size: 20px;
@@ -79,6 +90,7 @@
         padding: 0 0 10px 10px;
         border: 10px solid #c8a31c;
         z-index: 2;
+        margin-left:500px ;
          h2{
             font-size: 30px;
             color:  #c8a31c;
