@@ -8,24 +8,20 @@
 
 .header {
   font-size: 18px;
-  position: fixed;
+  position: relative;
   width: 100%;
   left: 0;
   bottom: 0;
   top: 0;
   z-index: 10; }
-  .header .card {
-    background-color: #ffffff; }
-  .header nav {
-    background-color: #ffffff; }
-    .header nav a {
-      color: rgba(73, 107, 35, 0.692); }
+  .header nav a {
+    color: #0d1107; }
 
 .title {
   margin: 200px 0 80px 0; }
   .title h1 {
     font-size: 40px;
-    color: rgba(73, 107, 35, 0.692); }
+    color: #10140b; }
 
 .section {
   margin-top: 50px; }
@@ -77,3 +73,9 @@
     .absolut .title-conent1 h2 {
       font-size: 30px;
       color: #c8a31c; }
+
+.container-flued {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden; }
