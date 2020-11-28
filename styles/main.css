@@ -6,77 +6,75 @@
   font-style: normal;
   font-display: swap; }
 
-.header {
+.header1 {
   font-size: 18px;
-  position: relative;
+  position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
   top: 0;
   z-index: 10; }
-  .header .title {
+  .header1 .title {
     font-size: 7px;
     color: #10140b; }
+  .header1 nav a {
+    color: #0d1107; }
+
+.header {
+  background-color: rgba(58, 63, 51, 0.815);
+  font-size: 18px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0; }
+  .header .title {
+    font-size: 7px;
+    color: #0d1107; }
   .header nav a {
     color: #0d1107; }
 
-.carousel-inner {
+.carousel-inner img {
   width: 600px;
   height: 600px; }
 
-.section {
-  margin-top: 50px; }
-  .section .img-st {
-    margin: 10px;
-    padding: 0 0 10px 10px; }
-    .section .img-st .img-sti {
-      width: 650px;
-      height: 400px;
-      padding-top: 50px; }
+.room {
+  padding: 100px 20px 0 20px;
+  background-color: rgba(215, 219, 210, 0.979); }
+  .room .card-d {
+    background-color: rgba(215, 219, 210, 0.979); }
+    .room .card-d img {
+      height: 300px; }
+    .room .card-d a {
+      background-color: rgba(58, 63, 51, 0.815);
+      color: #101107; }
+    .room .card-d a:hover {
+      background-color: #0b072c;
+      color: #5d6061; }
 
-.relativi {
-  position: relative;
-  margin-top: 80px; }
-  .relativi .title-conent {
-    position: absolute;
-    width: 500px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: #c8a31c;
-    padding: 0 100px 10px 10px;
-    border: 10px solid #c8a31c;
-    z-index: 2;
-    margin-right: 100px; }
-    .relativi .title-conent h2 {
-      font-size: 30px;
-      color: #c8a31c; }
-  .relativi .slide {
-    width: 900px;
-    margin-right: 800px; }
+.fire {
+  padding: 200px 20px 0 20px;
+  background-color: rgba(215, 219, 210, 0.979); }
+  .fire .card {
+    background-color: rgba(215, 219, 210, 0.979); }
+    .fire .card img {
+      height: 200px; }
+    .fire .card a {
+      background-color: rgba(58, 63, 51, 0.815);
+      color: #0d1107; }
+    .fire .card a:hover {
+      background-color: #0b072c;
+      color: #5d6061; }
 
-.absolut {
-  margin-left: 300px;
-  padding-top: 20px;
-  position: relative;
-  margin-top: 100px; }
-  .absolut .title-conent1 {
-    position: absolute;
-    width: 400px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: #c8a31c;
-    padding: 0 0 10px 10px;
-    border: 10px solid #c8a31c;
-    z-index: 2;
-    margin-left: 500px; }
-    .absolut .title-conent1 h2 {
-      font-size: 30px;
-      color: #c8a31c; }
+.tite {
+  padding-top: 100px;
+  padding-left: 550px;
+  font-size: 40px;
+  font-family: 'Archy EDT';
+  color: rgba(0, 0, 0, 0.801); }
 
-.container-flued {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden; }
+.box {
+  background-color: rgba(215, 219, 210, 0.979); }
+  .box .gallery {
+    background-color: rgba(215, 219, 210, 0.979);
+    margin: 20px;
+    padding: 0 10px 0 10px; }

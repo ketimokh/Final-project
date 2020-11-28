@@ -1,6 +1,6 @@
-.header{
+.header1{
     font-size: 18px;  
-    position: relative;
+    position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -17,7 +17,24 @@
     }
     
 }
-.carousel-inner{
+.header{
+    background-color:rgba(58, 63, 51, 0.815) ;
+    font-size: 18px;  
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    .title{
+        font-size: 7px;
+        color: rgb(13, 17, 7);
+    }    
+    nav{
+        a{
+            color: rgb(13, 17, 7);
+        }
+    }
+}
+.carousel-inner img{
     width: 600px;
     height: 600px;
 }
