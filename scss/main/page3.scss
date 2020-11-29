@@ -1,19 +1,19 @@
 
 .tite{
-    padding-top: 100px;
+    padding-top: $size03;
     padding-left: 550px;
-    font-size: 40px;
+    font-size: $fontsize04;
     font-family: 'Archy EDT';
-    color: rgba(0, 0, 0, 0.801);
+    color: $color08;
 }
 
 
 
 
 .box{
-    background-color:rgba(215, 219, 210, 0.979) ;
+    background-color:$color02 ;
     .gallery{
-        background-color:rgba(215, 219, 210, 0.979) ;
+        background-color:$color02 ;
         margin: 20px;
         padding: 0 10px 0 10px;
     }

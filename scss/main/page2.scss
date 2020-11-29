@@ -1,19 +1,21 @@
 
 .room{
     padding: 100px 20px 0 20px;
-    background-color:rgba(215, 219, 210, 0.979) ;
+    background-color:$color02;
     .card-d{
-        background-color:rgba(215, 219, 210, 0.979) ;
+        background-color:$color02 ;
         img{
             height: 300px;
         }
         a{
-            background-color:rgba(58, 63, 51, 0.815) ;
-            color: rgb(16, 17, 7);
+            background-color:$color03 ;
+            color: $color01;
+            font-family: 'Archy EDT';
         }
         a:hover{
-            background-color: rgb(11, 7, 44);
-            color: rgb(93, 96, 97);
+            background-color: $color07;
+            color:$color05;
+            font-family: 'Archy EDT';
         }
     }
     
@@ -21,19 +23,20 @@
 
 .fire{
     padding: 200px 20px 0 20px;
-    background-color:rgba(215, 219, 210, 0.979) ;
+    background-color:$color02 ;
     .card{
-        background-color:rgba(215, 219, 210, 0.979) ;
+        background-color:$color02 ;
         img{
             height: 200px;
         }
         a{
-            background-color:rgba(58, 63, 51, 0.815) ;
-            color: rgb(13, 17, 7);
+            background-color:$color03 ;
+            color: $color01;
+            font-family: 'Archy EDT';
         }
         a:hover{
-            background-color: rgb(11, 7, 44);
-            color: rgb(93, 96, 97);
+            background-color: $color07;
+            color: $color05;
         }
     }
     

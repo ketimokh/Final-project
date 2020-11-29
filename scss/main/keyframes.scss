@@ -1,0 +1,31 @@
+.card{
+    width: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    transition-timing-function:ease ;
+    transition:width 0.5s ease 0.5s;
+}
+
+.card :hover{
+    width: 300px;
+}
+
+
+.contact :hover{
+    width: 200px;
+}
+
+@keyframes example{
+    from {
+        margin-left: $size001;
+        width: 300%; 
+      }
+    
+    to {
+        margin-left: 0%;
+        width: $size001;
+    
+    }
+}

@@ -15,10 +15,13 @@
   top: 0;
   z-index: 10; }
   .header1 .title {
+    font-family: 'Archy EDT';
     font-size: 7px;
-    color: #10140b; }
-  .header1 nav a {
     color: #0d1107; }
+  .header1 nav {
+    font-family: 'Archy EDT'; }
+    .header1 nav a {
+      color: #0d1107; }
 
 .header {
   background-color: rgba(58, 63, 51, 0.815);
@@ -28,14 +31,40 @@
   bottom: 0;
   top: 0; }
   .header .title {
+    font-family: 'Archy EDT';
     font-size: 7px;
     color: #0d1107; }
-  .header nav a {
-    color: #0d1107; }
+  .header nav {
+    font-family: 'Archy EDT'; }
+    .header nav a {
+      color: #0d1107; }
 
 .carousel-inner img {
   width: 600px;
   height: 600px; }
+
+.contact-map {
+  background-color: rgba(215, 219, 210, 0.979); }
+  .contact-map .contact-img {
+    margin: 100px 0 10px 600px;
+    height: 100px;
+    opacity: .7; }
+  .contact-map h2 {
+    padding: 10px 0 0 570px;
+    font-size: 30px;
+    margin: 20px 0 30px;
+    color: #BF9B5C;
+    font-family: 'Archy EDT'; }
+  .contact-map p {
+    padding: 0 0 10px 600px;
+    font-size: 14px;
+    color: #9f9f9f;
+    font-family: 'Archy EDT'; }
+  .contact-map .map {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 0 30px 20px 30px; }
 
 .room {
   padding: 100px 20px 0 20px;
@@ -46,10 +75,12 @@
       height: 300px; }
     .room .card-d a {
       background-color: rgba(58, 63, 51, 0.815);
-      color: #101107; }
+      color: #0d1107;
+      font-family: 'Archy EDT'; }
     .room .card-d a:hover {
       background-color: #0b072c;
-      color: #5d6061; }
+      color: #5d6061;
+      font-family: 'Archy EDT'; }
 
 .fire {
   padding: 200px 20px 0 20px;
@@ -60,7 +91,8 @@
       height: 200px; }
     .fire .card a {
       background-color: rgba(58, 63, 51, 0.815);
-      color: #0d1107; }
+      color: #0d1107;
+      font-family: 'Archy EDT'; }
     .fire .card a:hover {
       background-color: #0b072c;
       color: #5d6061; }
@@ -78,3 +110,26 @@
     background-color: rgba(215, 219, 210, 0.979);
     margin: 20px;
     padding: 0 10px 0 10px; }
+
+.card {
+  width: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease;
+  transition: width 0.5s ease 0.5s; }
+
+.card :hover {
+  width: 300px; }
+
+.contact :hover {
+  width: 200px; }
+
+@keyframes example {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
