@@ -1,8 +1,8 @@
 
 .tite{
-    padding-top: $size03;
-    padding-left: 550px;
-    font-size: $fontsize04;
+    padding-top: $size01;
+    padding-left: 530px;
+    font-size: $fontsize05;
     font-family: 'Archy EDT';
     color: $color08;
 }
@@ -16,5 +16,19 @@
         background-color:$color02 ;
         margin: 20px;
         padding: 0 10px 0 10px;
+        .title-room{
+            padding-top: $size01;
+            padding-left: 500px;
+            font-size: $fontsize04;
+            font-family: 'Archy EDT';
+            color: $color08;
+        }
+        .title-room1{
+            padding-top: $size01;
+            padding-left: 570px;
+            font-size: $fontsize04;
+            font-family: 'Archy EDT';
+            color: $color08;
+        }
     }
 }

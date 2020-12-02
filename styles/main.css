@@ -78,7 +78,7 @@
       color: #0d1107;
       font-family: 'Archy EDT'; }
     .room .card-d a:hover {
-      background-color: #0b072c;
+      background-color: #BF9B5C;
       color: #5d6061;
       font-family: 'Archy EDT'; }
 
@@ -94,13 +94,13 @@
       color: #0d1107;
       font-family: 'Archy EDT'; }
     .fire .card a:hover {
-      background-color: #0b072c;
+      background-color: #BF9B5C;
       color: #5d6061; }
 
 .tite {
-  padding-top: 100px;
-  padding-left: 550px;
-  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 530px;
+  font-size: 30px;
   font-family: 'Archy EDT';
   color: rgba(0, 0, 0, 0.801); }
 
@@ -110,6 +110,50 @@
     background-color: rgba(215, 219, 210, 0.979);
     margin: 20px;
     padding: 0 10px 0 10px; }
+    .box .gallery .title-room {
+      padding-top: 20px;
+      padding-left: 500px;
+      font-size: 40px;
+      font-family: 'Archy EDT';
+      color: rgba(0, 0, 0, 0.801); }
+    .box .gallery .title-room1 {
+      padding-top: 20px;
+      padding-left: 570px;
+      font-size: 40px;
+      font-family: 'Archy EDT';
+      color: rgba(0, 0, 0, 0.801); }
+
+.container-flued {
+  background-color: rgba(215, 219, 210, 0.979); }
+  .container-flued .aboutus {
+    border: 5px solid #BF9B5C;
+    width: 900px;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-image: url(../img/lan.jpg); }
+    .container-flued .aboutus h4 {
+      font-size: 30px;
+      font-family: 'Archy EDT'; }
+    .container-flued .aboutus p {
+      font-size: 20px;
+      font-family: 'Archy EDT'; }
+  .container-flued .pic {
+    margin: 0 0  20px 50px;
+    width: 500px;
+    padding-top: 100px; }
+
+.container-flued {
+  background-color: rgba(215, 219, 210, 0.979); }
+  .container-flued .form-box {
+    width: 700px;
+    margin: 0 300px 10px 300px;
+    padding: 20px 30px 0 30px;
+    border: 5px solid #BF9B5C; }
+    .container-flued .form-box .button {
+      margin: 20px 0 20px 250px;
+      padding: 0 30px 0;
+      border-radius: 20px;
+      background-color: #BF9B5C; }
 
 .card {
   width: 100px;

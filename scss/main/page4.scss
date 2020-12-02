@@ -1,0 +1,23 @@
+.container-flued{
+    background-color:$color02 ;
+    .aboutus{
+        border: 5px solid $color06;
+        width: 900px;
+        margin-top: 20px;
+        margin-right: 100px;
+        background-image: url(../img/lan.jpg);
+        h4{
+            font-size: $fontsize05;
+            font-family: 'Archy EDT';
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Archy EDT';
+        }
+    }
+    .pic{
+        margin: 0 0  20px 50px;
+        width: 500px;
+        padding-top: 100px;
+    }
+}

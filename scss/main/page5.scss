@@ -1,0 +1,15 @@
+.container-flued{
+    background-color:$color02 ;
+    .form-box{
+        width: 700px;
+        margin: 0 300px 10px 300px;
+        padding: 20px 30px 0 30px;
+        border: 5px solid $color06;
+        .button{
+            margin: 20px 0 20px 250px;
+            padding: 0 30px 0;
+            border-radius: 20px;
+            background-color: $color06;
+        }
+    }
+}
