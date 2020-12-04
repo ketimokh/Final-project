@@ -13,8 +13,8 @@
     }    
     nav{
         font-family: 'Archy EDT';
-        a{
-            color: $color01
+        .nav-link{
+            color: $color06
         }
     }
     
@@ -42,30 +42,30 @@
     width: $size05;
     height: $size05;
 }
-.contact-map{
+section{
     background-color:$color02;
-    .contact-img{
-        margin: 100px 0 10px 600px;
-        height: $size03;
-        opacity: .7;
-    }
-    h2{
-        padding: 10px 0 0 570px;
-        font-size: $fontsize05;
-        margin: 20px 0 30px;
-        color: $color06;
-        font-family: 'Archy EDT';
-    }
-    p{
-        padding: 0 0 10px 600px;
-        font-size: $fontsize02;
-        color: $color04;
-        font-family: 'Archy EDT';
+    .contact-map{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:50px 0 20px 0 ;
+        .contact-img{
+            width: 200px;
+            height: 100px;
+        }
+        h2{
+            font-size: $fontsize05;
+            color: $color06;
+            font-family: 'Archy EDT';
+        }
+        p{
+            font-size: $fontsize02;
+            color: $color04;
+            font-family: 'Archy EDT';
+        }
     }
     .map{
-        width: $size001;
-        height: 300px;
-        overflow:hidden;
-        padding: 0 30px 20px 30px;
+        padding: 0 10px 20px 10px;
     }
 }
+
