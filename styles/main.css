@@ -6,33 +6,6 @@
   font-style: normal;
   font-display: swap; }
 
-@media (max-width: 860px) {
-  .nav-link {
-    color: rgba(0, 0, 0, 0.801); }
-  .container-fluid {
-    width: 100%;
-    right: 0;
-    left: 0;
-    overflow-y: hidden; }
-  .carousel {
-    width: 100%; }
-  .room {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin-left: 100px; }
-  .fire {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin-left: 100px; }
-  .colect {
-    width: 500px; }
-  .tite {
-    padding-right: 100px; } }
-
 .header1 {
   font-size: 18px;
   position: absolute;
@@ -41,30 +14,20 @@
   bottom: 0;
   top: 0;
   z-index: 10; }
-  .header1 .title {
-    font-family: 'Archy EDT';
-    font-size: 7px;
-    color: #0c0c0b; }
-  .header1 nav {
+  .header1 .nav-menu {
+    background-color: rgba(59, 59, 57, 0.527);
     font-family: 'Archy EDT'; }
-    .header1 nav .nav-link {
-      color: #BF9B5C; }
 
 .header {
   background-color: rgba(58, 63, 51, 0.815);
   font-size: 18px;
-  width: 100%;
   left: 0;
   bottom: 0;
   top: 0; }
-  .header .title {
-    font-family: 'Archy EDT';
-    font-size: 7px;
-    color: #0c0c0b; }
   .header nav {
     font-family: 'Archy EDT'; }
     .header nav a {
-      color: #0c0c0b; }
+      color: #0e0e00; }
 
 .carousel-inner img {
   width: 600px;
@@ -100,7 +63,7 @@ section {
       height: 300px; }
     .room .card-d a {
       background-color: rgba(58, 63, 51, 0.815);
-      color: #0c0c0b;
+      color: #0e0e00;
       font-family: 'Archy EDT'; }
     .room .card-d a:hover {
       background-color: #BF9B5C;
@@ -116,7 +79,7 @@ section {
       height: 200px; }
     .fire .card a {
       background-color: rgba(58, 63, 51, 0.815);
-      color: #0c0c0b;
+      color: #0e0e00;
       font-family: 'Archy EDT'; }
     .fire .card a:hover {
       background-color: #BF9B5C;
@@ -124,7 +87,7 @@ section {
 
 .tite {
   padding-top: 20px;
-  padding-left: 530px;
+  padding-left: 10px;
   font-size: 30px;
   font-family: 'Archy EDT';
   color: rgba(0, 0, 0, 0.801); }
@@ -133,52 +96,50 @@ section {
   background-color: rgba(215, 219, 210, 0.979); }
   .box .gallery {
     background-color: rgba(215, 219, 210, 0.979);
-    margin: 20px;
-    padding: 0 10px 0 10px; }
+    padding: 20px 10px 0 10px; }
     .box .gallery .title-room {
       padding-top: 20px;
-      padding-left: 500px;
       font-size: 40px;
       font-family: 'Archy EDT';
       color: rgba(0, 0, 0, 0.801); }
     .box .gallery .title-room1 {
       padding-top: 20px;
-      padding-left: 570px;
       font-size: 40px;
       font-family: 'Archy EDT';
       color: rgba(0, 0, 0, 0.801); }
 
-.container-flued {
+.colect {
   background-color: rgba(215, 219, 210, 0.979); }
-  .container-flued .aboutus {
+  .colect .aboutus {
     border: 5px solid #BF9B5C;
     width: 900px;
     margin-top: 20px;
     margin-right: 100px;
     background-image: url(../img/lan.jpg); }
-    .container-flued .aboutus h4 {
+    .colect .aboutus h4 {
       font-size: 30px;
       font-family: 'Archy EDT'; }
-    .container-flued .aboutus p {
+    .colect .aboutus p {
       font-size: 20px;
       font-family: 'Archy EDT'; }
-  .container-flued .pic {
+  .colect .pic {
     margin: 0 0  20px 50px;
     width: 500px;
     padding-top: 100px; }
 
-.colect {
-  background-color: rgba(215, 219, 210, 0.979); }
-  .colect .form-box {
-    width: 700px;
-    margin: 0 300px 10px 300px;
-    padding: 20px 30px 0 30px;
+.form-box {
+  background-color: rgba(215, 219, 210, 0.979);
+  padding-bottom: 90px; }
+  .form-box .form-box-title {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    padding: 20px 30px 30px 10px;
     border: 5px solid #BF9B5C; }
-    .colect .form-box .button {
-      margin: 20px 0 20px 250px;
-      padding: 0 30px 0;
+    .form-box .form-box-title .button {
       border-radius: 20px;
-      background-color: #BF9B5C; }
+      background-color: #BF9B5C;
+      margin: 20px 0 30px 250px; }
 
 .card {
   width: 100px;
@@ -199,3 +160,31 @@ section {
   to {
     margin-left: 0%;
     width: 100%; } }
+
+@media (max-width: 576px) {
+  .nav-link {
+    color: rgba(0, 0, 0, 0.801); }
+  .container-fluid {
+    right: 0;
+    left: 0;
+    overflow-y: hidden; }
+  .room {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .fire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    left: 0;
+    overflow-y: hidden; }
+  .pic {
+    display: none; }
+  .aboutus {
+    padding-right: 100px;
+    margin-left: 20px; } }

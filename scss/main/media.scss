@@ -1,36 +1,39 @@
-@media (max-width: 860px){
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px){
     .nav-link{
         color: $color08;
     }
     .container-fluid{
-        width: 100%;
         right: 0;
         left: 0;
         overflow-y: hidden;
     }
-    .carousel{
-        width: 100%;
-    }
     .room{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 70%;
-        margin-left: 100px;
+        justify-content: center;
         
     }
     .fire{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        width: 70%;
-        margin-left: 100px;
+        right: 0;
+        left: 0;
+        overflow-y: hidden;
     }
-    .colect{
-        width: 500px;
+    .pic{
+        display: none;
     }
-    .tite{
+    .aboutus{
         padding-right: 100px;
+        margin-left:20px;
     }
-	
+
 }
