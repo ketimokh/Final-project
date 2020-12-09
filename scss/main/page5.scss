@@ -1,16 +1,20 @@
 .form-box{
+    background-image: url(../img/cont.svg);
     background-color:$color02 ;
     padding-bottom: 90px;
-    .form-box-title{
-        display: flex;
-        flex: wrap;
-        flex-direction: column;
-        padding: 20px 30px 30px 10px;
-        border: 5px solid $color06;
-        .button{
-            border-radius: 20px;
-            background-color: $color06;
-            margin: 20px 0 30px 250px ;
+    .form{
+        width: 500px;
+        .form-box-title{
+            display: flex;
+            flex: wrap;
+            flex-direction: column;
+            padding: 20px 30px 30px 10px;
+            border: 5px solid $color06;
+            .button{
+                border-radius: 20px;
+                background-color: $color06;
+                margin: 20px 0 30px 200px ;
+            }
         }
     }
 }

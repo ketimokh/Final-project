@@ -1,7 +1,7 @@
 
 .tite{
     padding-top: $size01;
-    padding-left: 10px;
+    text-align-last: center;
     font-size: $fontsize05;
     font-family: 'Archy EDT';
     color: $color08;
@@ -10,15 +10,17 @@
     background-color:$color02 ;
     .gallery{
         background-color:$color02 ;
-        padding: 20px 10px 0 10px;
+        padding: 20px 10px 30px 30px;
         .title-room{
             padding-top: $size01;
+            text-align-last: center;
             font-size: $fontsize04;
             font-family: 'Archy EDT';
             color: $color08;
         }
         .title-room1{
             padding-top: $size01;
+            text-align-last: center;
             font-size: $fontsize04;
             font-family: 'Archy EDT';
             color: $color08;

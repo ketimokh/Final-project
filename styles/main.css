@@ -55,10 +55,11 @@ section {
     padding: 0 10px 20px 10px; }
 
 .room {
-  padding: 100px 20px 0 20px;
+  padding: 100px 0 0 20px;
   background-color: rgba(215, 219, 210, 0.979); }
   .room .card-d {
-    background-color: rgba(215, 219, 210, 0.979); }
+    background-color: rgba(215, 219, 210, 0.979);
+    margin-right: 20px; }
     .room .card-d img {
       height: 300px; }
     .room .card-d a {
@@ -74,7 +75,8 @@ section {
   padding: 100px 20px 0 20px;
   background-color: rgba(215, 219, 210, 0.979); }
   .fire .card {
-    background-color: rgba(215, 219, 210, 0.979); }
+    background-color: rgba(215, 219, 210, 0.979);
+    margin-right: 25px; }
     .fire .card img {
       height: 200px; }
     .fire .card a {
@@ -87,7 +89,7 @@ section {
 
 .tite {
   padding-top: 20px;
-  padding-left: 10px;
+  text-align-last: center;
   font-size: 30px;
   font-family: 'Archy EDT';
   color: rgba(0, 0, 0, 0.801); }
@@ -96,14 +98,16 @@ section {
   background-color: rgba(215, 219, 210, 0.979); }
   .box .gallery {
     background-color: rgba(215, 219, 210, 0.979);
-    padding: 20px 10px 0 10px; }
+    padding: 20px 10px 30px 30px; }
     .box .gallery .title-room {
       padding-top: 20px;
+      text-align-last: center;
       font-size: 40px;
       font-family: 'Archy EDT';
       color: rgba(0, 0, 0, 0.801); }
     .box .gallery .title-room1 {
       padding-top: 20px;
+      text-align-last: center;
       font-size: 40px;
       font-family: 'Archy EDT';
       color: rgba(0, 0, 0, 0.801); }
@@ -128,18 +132,21 @@ section {
     padding-top: 100px; }
 
 .form-box {
+  background-image: url(../img/cont.svg);
   background-color: rgba(215, 219, 210, 0.979);
   padding-bottom: 90px; }
-  .form-box .form-box-title {
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    padding: 20px 30px 30px 10px;
-    border: 5px solid #BF9B5C; }
-    .form-box .form-box-title .button {
-      border-radius: 20px;
-      background-color: #BF9B5C;
-      margin: 20px 0 30px 250px; }
+  .form-box .form {
+    width: 500px; }
+    .form-box .form .form-box-title {
+      display: flex;
+      flex: wrap;
+      flex-direction: column;
+      padding: 20px 30px 30px 10px;
+      border: 5px solid #BF9B5C; }
+      .form-box .form .form-box-title .button {
+        border-radius: 20px;
+        background-color: #BF9B5C;
+        margin: 20px 0 30px 200px; }
 
 .card {
   width: 100px;
@@ -151,7 +158,7 @@ section {
   transition: width 0.5s ease 0.5s; }
 
 .card :hover {
-  width: 300px; }
+  width: 250px; }
 
 @keyframes example {
   from {
@@ -187,4 +194,6 @@ section {
     display: none; }
   .aboutus {
     padding-right: 100px;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  .form {
+    max-width: 100%; } }
