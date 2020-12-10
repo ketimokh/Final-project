@@ -14,24 +14,53 @@
   bottom: 0;
   top: 0;
   z-index: 10; }
-  .header1 .nav-menu {
-    background-color: rgba(59, 59, 57, 0.527);
+  .header1 .main-title {
+    position: absolute;
+    padding-top: 25px;
+    width: 300px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #0e0e00;
     font-family: 'Archy EDT'; }
+  .header1 img {
+    padding-right: 30px;
+    z-index: 20; }
+  .header1 nav {
+    background-color: rgba(59, 59, 57, 0.527);
+    padding-bottom: 25px;
+    color: #0e0e00; }
+    .header1 nav .nav {
+      font-family: 'Archy EDT';
+      font-size: 20px;
+      color: #0e0e00; }
 
 .header {
-  background-color: rgba(58, 63, 51, 0.815);
   font-size: 18px;
   left: 0;
   bottom: 0;
   top: 0; }
-  .header nav {
+  .header .main-title {
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 300px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #0e0e00;
     font-family: 'Archy EDT'; }
+  .header img {
+    padding-right: 30px;
+    margin-bottom: 15px;
+    z-index: 20; }
+  .header nav {
+    font-family: 'Archy EDT';
+    background-color: rgba(59, 59, 57, 0.527); }
     .header nav a {
-      color: #0e0e00; }
+      color: #0e0e00;
+      font-size: 20px; }
 
-.carousel-inner img {
-  width: 600px;
-  height: 600px; }
+.slide img {
+  height: 700px; }
 
 section {
   background-color: rgba(215, 219, 210, 0.979); }
@@ -54,8 +83,25 @@ section {
   section .map {
     padding: 0 10px 20px 10px; }
 
+footer {
+  background-color: rgba(215, 219, 210, 0.979); }
+  footer .foot {
+    background-color: rgba(61, 58, 58, 0.801); }
+  footer .nav-item {
+    font-size: 17x; }
+    footer .nav-item a {
+      color: #BF9B5C; }
+  footer .contact-box {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    color: #BF9B5C; }
+    footer .contact-box p {
+      padding: 10px 0 0 10px;
+      font-size: 17x; }
+
 .room {
-  padding: 100px 0 0 20px;
+  padding: 80px 5px 0 5px;
   background-color: rgba(215, 219, 210, 0.979); }
   .room .card-d {
     background-color: rgba(215, 219, 210, 0.979);
@@ -92,7 +138,7 @@ section {
   text-align-last: center;
   font-size: 30px;
   font-family: 'Archy EDT';
-  color: rgba(0, 0, 0, 0.801); }
+  color: rgba(61, 58, 58, 0.801); }
 
 .box {
   background-color: rgba(215, 219, 210, 0.979); }
@@ -104,13 +150,13 @@ section {
       text-align-last: center;
       font-size: 40px;
       font-family: 'Archy EDT';
-      color: rgba(0, 0, 0, 0.801); }
+      color: rgba(61, 58, 58, 0.801); }
     .box .gallery .title-room1 {
       padding-top: 20px;
       text-align-last: center;
       font-size: 40px;
       font-family: 'Archy EDT';
-      color: rgba(0, 0, 0, 0.801); }
+      color: rgba(61, 58, 58, 0.801); }
 
 .colect {
   background-color: rgba(215, 219, 210, 0.979); }
@@ -119,7 +165,8 @@ section {
     width: 900px;
     margin-top: 20px;
     margin-right: 100px;
-    background-image: url(../img/lan.jpg); }
+    background-image: url(../img/lan.jpg);
+    margin-bottom: 20px; }
     .colect .aboutus h4 {
       font-size: 30px;
       font-family: 'Archy EDT'; }
@@ -134,7 +181,19 @@ section {
 .form-box {
   background-image: url(../img/cont.svg);
   background-color: rgba(215, 219, 210, 0.979);
-  padding-bottom: 90px; }
+  padding-top: 20px; }
+  .form-box .flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px; }
+  .form-box .contact-card {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    color: #BF9B5C; }
+    .form-box .contact-card p {
+      padding: 10px 0 0 10px;
+      font-size: 30px; }
   .form-box .form {
     width: 500px; }
     .form-box .form .form-box-title {
@@ -170,7 +229,9 @@ section {
 
 @media (max-width: 576px) {
   .nav-link {
-    color: rgba(0, 0, 0, 0.801); }
+    color: rgba(61, 58, 58, 0.801); }
+  .main-title {
+    display: none; }
   .container-fluid {
     right: 0;
     left: 0;
@@ -195,5 +256,7 @@ section {
   .aboutus {
     padding-right: 100px;
     margin-left: 20px; }
+  .contact-card {
+    display: none; }
   .form {
     max-width: 100%; } }

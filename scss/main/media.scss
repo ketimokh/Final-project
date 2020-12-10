@@ -4,6 +4,9 @@
     .nav-link{
         color: $color08;
     }
+    .main-title{
+       display: none;
+    }
     .container-fluid{
         right: 0;
         left: 0;
@@ -34,6 +37,9 @@
     .aboutus{
         padding-right: 100px;
         margin-left:20px;
+    }
+    .contact-card{
+        display: none;
     }
     .form{
         max-width: 100%;

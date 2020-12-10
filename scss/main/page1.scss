@@ -5,37 +5,74 @@
     left: 0;
     bottom: 0;
     top: 0;
-    z-index: 10;   
-    .nav-menu{
-        background-color: rgba(59, 59, 57, 0.527);
+    z-index: 10; 
+    .main-title{
+        position: absolute;
+        padding-top: 25px;
+        width: 300px;
+        padding-bottom: $size01;
+        font-size: 15px;
+        color:$color01;
         font-family: 'Archy EDT';
+    }  
+    img{
+        padding-right: 30px;
+        z-index: 20;
+    }
+    nav{
+        background-color: rgba(59, 59, 57, 0.527);
+        padding-bottom:25px ;
+        color:$color01;
+        .nav{
+            font-family: 'Archy EDT';
+            font-size: $size01;
+            color:$color01;
+        }
     }
     
 }
 .header{
-    background-color:$color03 ;
     font-size: $fontsize03; 
     left: 0;
     bottom: 0;
-    top: 0;   
+    top: 0; 
+    .main-title{
+        position: absolute;
+        padding-top: $size01;
+        padding-bottom: 30px;
+        width: 300px;
+        padding-bottom: $size01;
+        font-size: 15px;
+        color:$color01;
+        font-family: 'Archy EDT';
+    }    
+    img{
+        padding-right: 30px;
+        margin-bottom: 15px;
+        z-index: 20;
+    }
     nav{
         font-family: 'Archy EDT';
+        background-color: rgba(59, 59, 57, 0.527);
         a{
             color:$color01;
+            font-size: $size01;
         }
     }
 }
-.carousel-inner img{
-    width: $size05;
-    height: $size05;
+
+.slide img{
+    height: $size06;
 }
+
+
 section{
     background-color:$color02;
     .contact-map{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding:50px 0 20px 0 ;
+        padding:50px 0 $size01 0 ;
         .contact-img{
             width: 200px;
             height: 100px;
@@ -52,7 +89,31 @@ section{
         }
     }
     .map{
-        padding: 0 10px 20px 10px;
+        padding: 0 10px $size01 10px;
     }
 }
 
+footer{
+    background-color:$color02;
+    .foot{
+        background-color:$color08;
+    }
+    .nav-item{
+        font-size: 17x;
+        a{
+            color: $color06;
+        }
+    }
+    .contact-box{
+        display: flex;
+        align-items: center;
+        padding-right: 10px ;
+        color: $color06;
+        p{
+            padding: 10px 0 0 10px;
+            font-size: 17x;
+        }
+    }
+
+
+}

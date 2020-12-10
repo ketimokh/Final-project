@@ -1,7 +1,22 @@
 .form-box{
     background-image: url(../img/cont.svg);
     background-color:$color02 ;
-    padding-bottom: 90px;
+    padding-top: 20px;
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+    .contact-card{
+        display: flex;
+        align-items: center;
+        padding-right: 10px ;
+        color: $color06;
+        p{
+            padding: 10px 0 0 10px;
+            font-size: 30px;
+        }
+    }
     .form{
         width: 500px;
         .form-box-title{
