@@ -61,9 +61,11 @@
     }
 }
 
-.slide img{
+.picture{
+    width: 100%;
     height: $size06;
 }
+
 
 
 section{
@@ -99,7 +101,7 @@ footer{
         background-color:$color08;
     }
     .nav-item{
-        font-size: 17x;
+        font-size: 17px;
         a{
             color: $color06;
         }
