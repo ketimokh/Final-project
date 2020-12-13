@@ -9,6 +9,7 @@
     <link rel="icon" href="img/logo.png" type="img/png" sizes="16x16">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.css">
     <title>Landscape and Interior Design Studio</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
                             <a class="nav-link" href="index.html">მთავარი </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index5.html"> ინტერიერის დიზაინი </a>
+                            <a class="nav-link" href="index1.html"> ინტერიერის დიზაინი </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index8.html">ლანდშაფტის დიზაინი </a>
@@ -43,129 +44,151 @@
                 </div>
             </nav>
         </header>
-        <div class="box" >
-            <div class="tite" >
-                <h2>
-                    ფოტო გალერეა
-                </h2>
+        <section>
+            <div class="filters filter-button-group tite" >
+                <ul>
+                    <h4> 
+                        <li class="active" data-filter="*">ფოტო გალერეა</li> 
+                        <li   data-filter=".nature">საცურაო აუზი</li>
+                        <li  data-filter=".humans">ეზოს ბუხარი</li>
+                        <li  data-filter=".animals">ბაღი</li>
+                    </h4>
+                </ul>
             </div>
-            <div>
-                <div class="gallery">
-                    <div class="title-room tite" >
-                        <h2 id="საცურაო აუზი">
-                            საცურაო აუზი
-                        </h2>
-                    </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/pool.jpg">
-                        <img src="img/pool.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/swimming.jpg">
-                            <img src="img/swimming.jpg" alt="garden" width="600" height="400">
+            <div class="container grid" >
+                <div class="content  nature item" >
+                    <a target="_blank" href="img/pool.jpg" data-litghtbox="nature" data-title="საცურაო აუზი" id="საცურაო აუზი">
+                    <img src="img/pool.jpg" alt="garden" >
+                </a>
+                </div>
+                <div class="content  nature item">
+                        <a target="_blank" href="img/swimming.jpg" data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/swimming.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/ingr.jpg">
-                            <img src="img/ingr.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/Various.jpg">
-                            <img src="img/Various.jpg" alt="garden" width="600" height="400">
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/ingr.jpg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/ingr.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/Klop.jpg">
-                            <img src="img/Klop.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/outdoor.jpeg">
-                            <img src="img/outdoor.jpeg" alt="garden" width="600" height="400">
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/Various.jpg" data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/Various.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/unnamed.jpg">
-                            <img src="img/unnamed.jpg" alt="garden" width="600" height="400">
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/Klop.jpg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/Klop.jpg" alt="garden" >
                         </a>
-                        <a target="_blank" href="img/FULL.jpg">
-                            <img src="img/FULL.jpg" alt="garden" width="600" height="400">
+                    </div>
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/outdoor.jpeg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/outdoor.jpeg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/unnamed.jpg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/unnamed.jpg" alt="garden">
+                        </a>
+                    </div>
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/FULL.jpg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/FULL.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  nature item">
+                        <a target="_blank" href="img/Beach.jpg"data-litghtbox="nature" data-title="საცურაო აუზი">
+                            <img src="img/Beach.jpg" alt="garden" >
                         </a>
                     </div>
                 </div>
-                <div class="gallery">
-                    <div class="title-room" >
-                        <h2 id="ეზოს ბუხარი">ეზოს ბუხარი</h2>
-                    </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/fire1.jpg" >
-                            <img src="img/fire1.jpg" alt="garden" width="600" height="400">
-                            </a>
-                            <a target="_blank" href="img/fire2.jpg" >
-                                <img src="img/fire2.jpg" alt="garden" width="600" height="400">
-                            </a>
-                    </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/James.jpg" >
-                            <img src="img/James.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/ext.jpg" >
-                            <img src="img/ext.jpg" alt="garden" width="600" height="400">
+                <div  class="container grid" style="padding-bottom:30px"  >
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/fire1.jpg"data-litghtbox="humans" data-title="ეზოს ბუხარი"id="ეზოს ბუხარი" >
+                            <img src="img/fire1.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/pla.jpg" >
-                            <img src="img/pla.jpg" alt="garden" width="600" height="400">
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/fire2.jpg" data-litghtbox="humans" data-title="ეზოს ბუხარი" >
+                            <img src="img/fire2.jpg" alt="garden" >
                         </a>
-                        <a target="_blank" href="img/home.jpg" >
-                            <img src="img/home.jpg" alt="garden" width="600" height="400">
+                    </div>
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/James.jpg" data-litghtbox="humans" data-title="ეზოს ბუხარი" >
+                            <img src="img/James.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/ext.jpg" data-litghtbox="humans" data-title="ეზოს ბუხარი">
+                            <img src="img/ext.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/pla.jpg" data-litghtbox="humans" data-title="ეზოს ბუხარი" >
+                            <img src="img/pla.jpg" alt="garden">
+                        </a>
+                    </div>
+                    <div class="content  humans item">
+                        <a target="_blank" href="img/home.jpg"data-litghtbox="humans" data-title="ეზოს ბუხარი" >
+                            <img src="img/home.jpg" alt="garden" >
                         </a>
                     </div>
                 </div>
-                <div class="gallery " >
-                    <div class="title-room1" >
-                        <h2 id="ბაღი">ბაღი</h2>
-                    </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/landsca.jpg">
-                        <img src="img/Landsca.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/Gett.jpg">
-                            <img src="img/Gett.jpg" alt="garden" width="600" height="400">
+                <div  class="container grid" style="padding-bottom:30px;" >
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/landsca.jpg" data-litghtbox="animals" data-title="ბაღი" id="ბაღი">
+                        <img src="img/Landsca.jpg" alt="garden">
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/architect.jpg">
-                            <img src="img/architect.jpg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/sky.jpeg">
-                            <img src="img/sky.jpeg" alt="garden" width="600" height="400">
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/Gett.jpg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/Gett.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/blu.jpeg">
-                            <img src="img/blu.jpeg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/naslovna.jpg">
-                            <img src="img/naslovna.jpg" alt="garden" width="600" height="400">
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/architect.jpg"data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/architect.jpg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/bea.jpeg">
-                            <img src="img/bea.jpeg" alt="garden" width="600" height="400">
-                        </a>
-                        <a target="_blank" href="img/land.jpg">
-                            <img src="img/land.jpg" alt="garden" width="600" height="400">
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/sky.jpeg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/sky.jpeg" alt="garden" >
                         </a>
                     </div>
-                    <div class="gallery ">
-                        <a target="_blank" href="img/Landscap.jpg">
-                            <img src="img/Landscap.jpg" alt="garden" width="600" height="400">
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/blu.jpeg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/blu.jpeg" alt="garden" >
                         </a>
-                        <a target="_blank" href="img/large.jpg">
-                            <img src="img/large.jpg" alt="garden" width="600" height="400">
+                    </div>
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/naslovna.jpg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/naslovna.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/bea.jpeg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/bea.jpeg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/land.jpg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/land.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/Landscap.jpg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/Landscap.jpg" alt="garden" >
+                        </a>
+                    </div>
+                    <div class="content  animals item">
+                        <a target="_blank" href="img/large.jpg" data-litghtbox="animals" data-title="ბაღი">
+                            <img src="img/large.jpg" alt="garden">
                         </a>
                     </div>
                 </div>
             </div> 
-        </div>
-        <footer>
+        </section>
+         <footer>
             <div class="footer" >
                 <div class="d-flex justify-content-between foot" >
                     <img class="img" src="./img/loog.png" alt="logo" style="width: 5rem;">
@@ -190,7 +213,7 @@
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                             </svg>
-                            <p>design@gmai.com</p>
+                            <p>design@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -200,5 +223,24 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.js "></script>
+    <script>
+        $(document).ready(function(){
+            $('.grid').isotope({
+                itemSelector:'.item',
+            });
+
+
+            $('.filter-button-group').on('click','li',function(){
+                var filterValue = $(this).attr('data-filter');
+                $('.grid').isotope({filter:filterValue});
+                $('.filter-button-group li').removeClass('active');
+                $(this).addClass('active');
+            });
+
+        })
+    </script>
 </body>
 </html>

@@ -1,29 +1,55 @@
 
-.tite{
-    padding-top: $size01;
-    text-align-last: center;
-    font-size: $fontsize05;
-    font-family: 'Archy EDT';
-    color: $color08;
-}
-.box{
-    background-color:$color02 ;
-    .gallery{
-        background-color:$color02 ;
-        padding: 20px 10px 30px 30px;
-        .title-room{
-            padding-top: $size01;
-            text-align-last: center;
-            font-size: $fontsize04;
-            font-family: 'Archy EDT';
-            color: $color08;
+
+body{
+    background-color:$color04 ;
+    padding: 0px;
+    .container{
+        width: $size001;
+        margin: 0 auto;
+        padding: 0px;
+        display: flex;
+        justify-content: start;
+        overflow-y: hidden;
+        .content img{
+            width: 300px;
+            height: 200px;
+            margin: 10px 0 10px 80px;
         }
-        .title-room1{
-            padding-top: $size01;
-            text-align-last: center;
-            font-size: $fontsize04;
-            font-family: 'Archy EDT';
-            color: $color08;
+        a:hover{
+            opacity: 0.5;
         }
     }
+}
+.filters{
+    width: $size001;
+    text-align: center;
+    ul{
+        list-style: none;
+        padding: 20px 0;
+    }
+    li{
+        display: inline;
+        padding: 10px 25px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Archy EDT'; 
+        color: rgb(17, 16, 16);
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        transition: all 1s ease;
+    }
+    li:hover{
+        color: #000;
+        background-color: #ffffff;
+        transition: all 1s ease;
+    }
+}
+
+li.active{
+    color: #000;
+    background-color: #ffffff;
+}
+.litghtboxOverlay{
+    outline: 0;
 }

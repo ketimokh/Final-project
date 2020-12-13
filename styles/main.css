@@ -8,6 +8,8 @@
 
 .header1 {
   font-size: 18px;
+  font-weight: bold;
+  font-family: 'Archy EDT';
   position: absolute;
   width: 100%;
   left: 0;
@@ -20,6 +22,7 @@
     width: 300px;
     padding-bottom: 20px;
     font-size: 15px;
+    font-weight: 500;
     color: #0e0e00;
     font-family: 'Archy EDT'; }
   .header1 img {
@@ -29,13 +32,11 @@
     background-color: rgba(59, 59, 57, 0.527);
     padding-bottom: 25px;
     color: #0e0e00; }
-    .header1 nav .nav {
-      font-family: 'Archy EDT';
-      font-size: 20px;
-      color: #0e0e00; }
 
 .header {
   font-size: 18px;
+  font-weight: bold;
+  font-family: 'Archy EDT';
   left: 0;
   bottom: 0;
   top: 0; }
@@ -46,6 +47,7 @@
     width: 300px;
     padding-bottom: 20px;
     font-size: 15px;
+    font-weight: 500;
     color: #0e0e00;
     font-family: 'Archy EDT'; }
   .header img {
@@ -53,11 +55,7 @@
     margin-bottom: 15px;
     z-index: 20; }
   .header nav {
-    font-family: 'Archy EDT';
     background-color: rgba(59, 59, 57, 0.527); }
-    .header nav a {
-      color: #0e0e00;
-      font-size: 20px; }
 
 .picture {
   width: 100%;
@@ -91,7 +89,9 @@ footer {
   footer .nav-item {
     font-size: 17px; }
     footer .nav-item a {
-      color: #BF9B5C; }
+      color: #BF9B5C;
+      font-weight: bold;
+      font-family: 'Archy EDT'; }
   footer .contact-box {
     display: flex;
     align-items: center;
@@ -99,14 +99,17 @@ footer {
     color: #BF9B5C; }
     footer .contact-box p {
       padding: 10px 0 0 10px;
-      font-size: 17x; }
+      font-size: 17x;
+      font-weight: bold;
+      font-family: 'Archy EDT'; }
 
 .room {
   padding: 80px 5px 0 5px;
   background-color: rgba(215, 219, 210, 0.979); }
   .room .card-d {
     background-color: rgba(215, 219, 210, 0.979);
-    margin-right: 20px; }
+    margin: 15px;
+    align-items: center; }
     .room .card-d img {
       height: 300px; }
     .room .card-d a {
@@ -123,7 +126,8 @@ footer {
   background-color: rgba(215, 219, 210, 0.979); }
   .fire .card {
     background-color: rgba(215, 219, 210, 0.979);
-    margin-right: 25px; }
+    margin: 20px;
+    align-items: center; }
     .fire .card img {
       height: 200px; }
     .fire .card a {
@@ -134,30 +138,51 @@ footer {
       background-color: #BF9B5C;
       color: #5d6061; }
 
-.tite {
-  padding-top: 20px;
-  text-align-last: center;
-  font-size: 30px;
-  font-family: 'Archy EDT';
-  color: rgba(61, 58, 58, 0.801); }
+body {
+  background-color: #9f9f9f;
+  padding: 0px; }
+  body .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    overflow-y: hidden; }
+    body .container .content img {
+      width: 300px;
+      height: 200px;
+      margin: 10px 0 10px 80px; }
+    body .container a:hover {
+      opacity: 0.5; }
 
-.box {
-  background-color: rgba(215, 219, 210, 0.979); }
-  .box .gallery {
-    background-color: rgba(215, 219, 210, 0.979);
-    padding: 20px 10px 30px 30px; }
-    .box .gallery .title-room {
-      padding-top: 20px;
-      text-align-last: center;
-      font-size: 40px;
-      font-family: 'Archy EDT';
-      color: rgba(61, 58, 58, 0.801); }
-    .box .gallery .title-room1 {
-      padding-top: 20px;
-      text-align-last: center;
-      font-size: 40px;
-      font-family: 'Archy EDT';
-      color: rgba(61, 58, 58, 0.801); }
+.filters {
+  width: 100%;
+  text-align: center; }
+  .filters ul {
+    list-style: none;
+    padding: 20px 0; }
+  .filters li {
+    display: inline;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Archy EDT';
+    color: #111010;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: all 1s ease; }
+  .filters li:hover {
+    color: #000;
+    background-color: #ffffff;
+    transition: all 1s ease; }
+
+li.active {
+  color: #000;
+  background-color: #ffffff; }
+
+.litghtboxOverlay {
+  outline: 0; }
 
 .colect {
   background-color: rgba(215, 219, 210, 0.979); }
@@ -169,10 +194,11 @@ footer {
     background-image: url(../img/lan.jpg);
     margin-bottom: 20px; }
     .colect .aboutus h4 {
-      font-size: 30px;
+      font-size: 18px;
+      font-weight: bold;
       font-family: 'Archy EDT'; }
     .colect .aboutus p {
-      font-size: 20px;
+      font-size: 15px;
       font-family: 'Archy EDT'; }
   .colect .pic {
     margin: 0 0  20px 50px;
@@ -185,16 +211,19 @@ footer {
   padding-top: 20px; }
   .form-box .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
+    padding-right: 50px;
     padding-bottom: 20px; }
   .form-box .contact-card {
     display: flex;
     align-items: center;
-    padding-right: 10px;
+    margin-left: 100px;
     color: #BF9B5C; }
     .form-box .contact-card p {
       padding: 10px 0 0 10px;
-      font-size: 30px; }
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Archy EDT'; }
   .form-box .form {
     width: 500px; }
     .form-box .form .form-box-title {
@@ -202,7 +231,8 @@ footer {
       flex: wrap;
       flex-direction: column;
       padding: 20px 30px 30px 10px;
-      border: 5px solid #BF9B5C; }
+      border: 5px solid #BF9B5C;
+      font-family: 'Archy EDT'; }
       .form-box .form .form-box-title .button {
         border-radius: 20px;
         background-color: #BF9B5C;
@@ -211,14 +241,29 @@ footer {
 .card {
   width: 100px;
   position: relative;
+  -webkit-animation-name: example;
   animation-name: example;
+  -webkit-animation-duration: 3s;
   animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
   transition-timing-function: ease;
+  -webkit-transition: width 0.5s ease 0.5s;
+  -o-transition: width 0.5s ease 0.5s;
   transition: width 0.5s ease 0.5s; }
 
 .card :hover {
   width: 250px; }
+
+@-webkit-keyframes example {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 
 @keyframes example {
   from {
@@ -227,6 +272,13 @@ footer {
   to {
     margin-left: 0%;
     width: 100%; } }
+
+@media (max-width: 991.98px) {
+  .main-title {
+    display: none; }
+  .aboutus {
+    margin-left: 50px;
+    text-align: justify; } }
 
 @media (max-width: 576px) {
   .nav-link {
@@ -237,6 +289,8 @@ footer {
     right: 0;
     left: 0;
     overflow-y: hidden; }
+  .picture {
+    height: 400px; }
   .room {
     display: flex;
     flex-direction: column;
@@ -245,13 +299,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    right: 0;
-    left: 0;
-    overflow-y: hidden; }
   .pic {
     display: none; }
   .aboutus {
@@ -260,4 +307,9 @@ footer {
   .contact-card {
     display: none; }
   .form {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .flex {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 20px; } }

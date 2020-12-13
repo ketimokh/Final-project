@@ -1,5 +1,7 @@
 .header1{
-    font-size: $fontsize03;  
+    font-size: $fontsize03;
+    font-weight: bold; 
+    font-family: 'Archy EDT';
     position: absolute;
     width: $size001;
     left: 0;
@@ -12,6 +14,7 @@
         width: 300px;
         padding-bottom: $size01;
         font-size: 15px;
+        font-weight: 500;
         color:$color01;
         font-family: 'Archy EDT';
     }  
@@ -23,16 +26,13 @@
         background-color: rgba(59, 59, 57, 0.527);
         padding-bottom:25px ;
         color:$color01;
-        .nav{
-            font-family: 'Archy EDT';
-            font-size: $size01;
-            color:$color01;
-        }
     }
     
 }
 .header{
     font-size: $fontsize03; 
+    font-weight: bold; 
+    font-family: 'Archy EDT';
     left: 0;
     bottom: 0;
     top: 0; 
@@ -43,6 +43,7 @@
         width: 300px;
         padding-bottom: $size01;
         font-size: 15px;
+        font-weight: 500;
         color:$color01;
         font-family: 'Archy EDT';
     }    
@@ -52,12 +53,7 @@
         z-index: 20;
     }
     nav{
-        font-family: 'Archy EDT';
         background-color: rgba(59, 59, 57, 0.527);
-        a{
-            color:$color01;
-            font-size: $size01;
-        }
     }
 }
 
@@ -104,6 +100,8 @@ footer{
         font-size: 17px;
         a{
             color: $color06;
+            font-weight: bold;
+            font-family: 'Archy EDT'; 
         }
     }
     .contact-box{
@@ -114,6 +112,8 @@ footer{
         p{
             padding: 10px 0 0 10px;
             font-size: 17x;
+            font-weight: bold;
+            font-family: 'Archy EDT'; 
         }
     }
 

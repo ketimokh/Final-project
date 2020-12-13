@@ -1,3 +1,13 @@
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .main-title{
+        display: none;
+    }
+    .aboutus{
+        margin-left:50px;
+        text-align: justify;
+    }
+ }
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px){
@@ -12,6 +22,9 @@
         left: 0;
         overflow-y: hidden;
     }
+    .picture{
+        height: 400px;
+    }
     .room{
         display: flex;
         flex-direction: column;
@@ -22,14 +35,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .gallery{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        right: 0;
-        left: 0;
-        overflow-y: hidden;
     }
     .pic{
         display: none;
@@ -43,6 +48,12 @@
     }
     .form{
         max-width: 100%;
+    }
+    .flex{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        padding-bottom: 20px;
     }
 
 }

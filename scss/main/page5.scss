@@ -4,17 +4,20 @@
     padding-top: 20px;
     .flex{
         display: flex;
-        justify-content: space-around;
+        justify-content: start;
+        padding-right: 50px;
         padding-bottom: 20px;
     }
     .contact-card{
         display: flex;
         align-items: center;
-        padding-right: 10px ;
+        margin-left: 100px;
         color: $color06;
         p{
             padding: 10px 0 0 10px;
             font-size: 30px;
+            font-weight: bold;
+            font-family: 'Archy EDT'; 
         }
     }
     .form{
@@ -25,6 +28,7 @@
             flex-direction: column;
             padding: 20px 30px 30px 10px;
             border: 5px solid $color06;
+            font-family: 'Archy EDT';
             .button{
                 border-radius: 20px;
                 background-color: $color06;
