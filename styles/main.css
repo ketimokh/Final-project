@@ -151,7 +151,7 @@ body {
     body .container .content img {
       width: 300px;
       height: 200px;
-      margin: 10px 0 10px 80px; }
+      margin: 10px 40px 10px 40px; }
     body .container a:hover {
       opacity: 0.5; }
 
@@ -310,6 +310,8 @@ li.active {
     max-width: 100%; }
   .flex {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+  .contact-box-card {
+    align-items: center; } }
