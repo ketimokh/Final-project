@@ -152,7 +152,7 @@ body {
       width: 300px;
       height: 200px;
       margin: 10px 40px 10px 40px; }
-    body .container a:hover {
+    body .container .content a:hover {
       opacity: 0.5; }
 
 .filters {
@@ -190,15 +190,21 @@ li.active {
     border: 5px solid #BF9B5C;
     width: 900px;
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 40px;
     background-image: url(../img/lan.jpg);
     margin-bottom: 20px; }
     .colect .aboutus h4 {
+      text-align: center;
       font-size: 18px;
       font-weight: bold;
       font-family: 'Archy EDT'; }
+    .colect .aboutus h2 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Archy EDT'; }
     .colect .aboutus p {
-      font-size: 15px;
+      font-size: 18px;
       font-family: 'Archy EDT'; }
   .colect .pic {
     margin: 0 0  20px 50px;
@@ -276,9 +282,12 @@ li.active {
 @media (max-width: 991.98px) {
   .main-title {
     display: none; }
-  .aboutus {
-    margin-left: 50px;
-    text-align: justify; } }
+  .image-wrapper {
+    width: 500px;
+    height: 300px; }
+  .picture-collect {
+    width: 200px;
+    padding-top: 100px; } }
 
 @media (max-width: 576px) {
   .nav-link {
@@ -302,8 +311,8 @@ li.active {
   .pic {
     display: none; }
   .aboutus {
-    padding-right: 100px;
-    margin-left: 20px; }
+    align-items: center;
+    text-align: justify; }
   .contact-card {
     display: none; }
   .form {

@@ -4,16 +4,23 @@
         border: 5px solid $color06;
         width: 900px;
         margin-top: 20px;
-        margin-right: 100px;
+        margin-right: 40px;
         background-image: url(../img/lan.jpg);
         margin-bottom: 20px;
         h4{
+            text-align: center;
             font-size: $fontsize03;
             font-weight: bold;
             font-family: 'Archy EDT';
         }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Archy EDT'; 
+        }
         p{
-            font-size: 15px;
+            font-size: 18px;
             font-family: 'Archy EDT';
         }
     }

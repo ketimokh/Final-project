@@ -3,11 +3,17 @@
     .main-title{
         display: none;
     }
-    .aboutus{
-        margin-left:50px;
-        text-align: justify;
+    .image-wrapper{
+        width: 500px;
+        height: 300px;
     }
+    .picture-collect{
+        width: 200px;
+        padding-top: 100px;
+    }
+    
  }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px){
@@ -40,8 +46,8 @@
         display: none;
     }
     .aboutus{
-        padding-right: 100px;
-        margin-left:20px;
+        align-items: center;
+        text-align: justify;
     }
     .contact-card{
         display: none;
