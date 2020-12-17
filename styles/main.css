@@ -21,7 +21,7 @@
     padding-top: 25px;
     width: 300px;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     color: #0e0e00;
     font-family: 'Archy EDT'; }
@@ -42,11 +42,10 @@
   top: 0; }
   .header .main-title {
     position: absolute;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 25px;
     width: 300px;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     color: #0e0e00;
     font-family: 'Archy EDT'; }
@@ -56,6 +55,9 @@
     z-index: 20; }
   .header nav {
     background-color: rgba(59, 59, 57, 0.527); }
+
+.carousel-inner :hover {
+  position: absolute; }
 
 .picture {
   width: 100%;
@@ -91,15 +93,16 @@ footer {
     footer .nav-item a {
       color: #BF9B5C;
       font-weight: bold;
-      font-family: 'Archy EDT'; }
+      font-family: 'Archy EDT';
+      padding: 18px 0  10px; }
   footer .contact-box {
     display: flex;
     align-items: center;
     padding-right: 10px;
     color: #BF9B5C; }
     footer .contact-box p {
-      padding: 10px 0 0 10px;
-      font-size: 17x;
+      padding: 15px 0 0 10px;
+      font-size: 17px;
       font-weight: bold;
       font-family: 'Archy EDT'; }
 
@@ -151,7 +154,8 @@ body {
     body .container .content img {
       width: 300px;
       height: 200px;
-      margin: 10px 40px 10px 40px; }
+      margin: 10px 10px 10px 30px;
+      padding: 10px 0 10px 50px; }
     body .container .content a:hover {
       opacity: 0.5; }
 
@@ -234,7 +238,6 @@ li.active {
     width: 500px; }
     .form-box .form .form-box-title {
       display: flex;
-      flex: wrap;
       flex-direction: column;
       padding: 20px 30px 30px 10px;
       border: 5px solid #BF9B5C;
@@ -281,10 +284,7 @@ li.active {
 
 @media (max-width: 991.98px) {
   .main-title {
-    display: none; }
-  .image-wrapper {
-    width: 500px;
-    height: 300px; }
+    top: 30px; }
   .picture-collect {
     width: 200px;
     padding-top: 100px; } }
@@ -292,8 +292,6 @@ li.active {
 @media (max-width: 576px) {
   .nav-link {
     color: rgba(61, 58, 58, 0.801); }
-  .main-title {
-    display: none; }
   .container-fluid {
     right: 0;
     left: 0;
@@ -308,6 +306,8 @@ li.active {
     display: flex;
     flex-direction: column;
     justify-content: center; }
+  .lightbox {
+    padding-top: 100px; }
   .pic {
     display: none; }
   .aboutus {
@@ -321,6 +321,4 @@ li.active {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 20px; }
-  .contact-box-card {
-    align-items: center; } }
+    padding-bottom: 20px; } }

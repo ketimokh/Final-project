@@ -13,7 +13,7 @@
         padding-top: 25px;
         width: 300px;
         padding-bottom: $size01;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
         color:$color01;
         font-family: 'Archy EDT';
@@ -37,11 +37,10 @@
     top: 0; 
     .main-title{
         position: absolute;
-        padding-top: $size01;
-        padding-bottom: 30px;
+        padding-top: 25px;
         width: 300px;
         padding-bottom: $size01;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
         color:$color01;
         font-family: 'Archy EDT';
@@ -55,7 +54,9 @@
         background-color: rgba(59, 59, 57, 0.527);
     }
 }
-
+.carousel-inner :hover{
+    position: absolute;
+}
 .picture{
     width: 100%;
     height: $size06;
@@ -101,6 +102,7 @@ footer{
             color: $color06;
             font-weight: bold;
             font-family: 'Archy EDT'; 
+            padding: 18px 0  10px;
         }
     }
     .contact-box{
@@ -109,8 +111,8 @@ footer{
         padding-right: 10px ;
         color: $color06;
         p{
-            padding: 10px 0 0 10px;
-            font-size: 17x;
+            padding: 15px 0 0 10px;
+            font-size: 17px;
             font-weight: bold;
             font-family: 'Archy EDT'; 
         }
