@@ -10,11 +10,14 @@ body{
         display: flex;
         justify-content: start;
         overflow-y: hidden;
+        content{
+            align-items: center;
+        }
         .content img{
             width: 300px;
             height: 200px;
-            margin: 10px 10px 10px 30px;
-            padding: 10px 0 10px 50px;
+            margin-left:40px ;
+            padding: 10px 0 10px 0;
         }
         .content a:hover{
             opacity: 0.5;
@@ -30,7 +33,7 @@ body{
     }
     li{
         display: inline;
-        padding: 10px 25px;
+        padding: 10px 10px;
         font-size: 14px;
         font-weight: 500;
         font-family: 'Archy EDT'; 
